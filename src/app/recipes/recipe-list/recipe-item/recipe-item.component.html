@@ -1,0 +1,12 @@
+<div class="list-group recipes-list">
+    <a href="#" (click)="emitRecipe()" class="list-group-item list-group-item-action">
+    <div class="float-left">
+    <h4 class="mb-1">{{recipe.name}}</h4>
+    <P class="mb-1">{{recipe.description}}</P>
+    </div>
+    <span class="float-right">
+    <img class="img-fluid" [src]="recipe.imagePath" style="max-height:50px">
+    </span>
+    </a>
+    <div class="list-group">
+    
