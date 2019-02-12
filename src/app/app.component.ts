@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { ThrowStmt } from '@angular/compiler';
 
 @Component({
   selector: 'app-root',
@@ -7,9 +6,5 @@ import { ThrowStmt } from '@angular/compiler';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  navigator:string = 'recipe'
-
-  routerNavigate(data:string){
-    this.navigator = data;
-  }
+  
 }
